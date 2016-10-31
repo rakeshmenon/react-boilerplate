@@ -18,7 +18,7 @@ const A = ({ ...props }) => {
       { children }
     </a>
   );
-}
+};
 
 A.propTypes = {
   className: PropTypes.string,
